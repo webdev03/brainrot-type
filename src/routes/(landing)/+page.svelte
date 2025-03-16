@@ -20,11 +20,9 @@
 	</div>
 	<div class="flex h-full w-1/2 flex-col items-center justify-center bg-[#91ccf4] p-2 text-center">
 		<h2 class="text-5xl font-bold">AI Chatbot</h2>
-		<p class="text-3xl">
-			AI Chatbot is a chatbot that can help you with your important questions.
-		</p>
+		<p class="text-3xl">AI Chatbot is a chatbot that can help you with your important questions.</p>
 		<p class="text-xl">It might have a very skewed perception of reality though...</p>
-        <p class="text-sm">Also, NO WARRANTY OR GUARANTEE GIVEN! USE AT YOUR OWN RISK!</p>
+		<p class="text-sm">Also, NO WARRANTY OR GUARANTEE GIVEN! USE AT YOUR OWN RISK!</p>
 		<a href="/ai-chatbot" class="my-3 rounded bg-[#f68887] p-3 text-xl text-black"
 			>Click here to try the groundbreaking AI Chatbot</a
 		>
