@@ -8,6 +8,10 @@ Made by [Devarsh](https://devarsh.me) and [Luke](https://github.com/TheLMan5) (L
 
 (This website also has a really ~~bad~~ amazing AI chatbot.)
 
+## How To Deploy
+
+This site uses the SvelteKit Vercel adapter. You can change it in `svelte.config.js` and add the required package if needed, and deploy it with the instructions for your adapter.
+
 ## Credits
 
 "Get Out" Sound Effect - https://www.myinstants.com/en/instant/tuco-get-out-30566/
