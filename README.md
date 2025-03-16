@@ -6,6 +6,8 @@ It's like [Monkeytype](https://monkeytype.com) but it's better... **COMPLETE WIT
 
 Made by [Devarsh](https://devarsh.me) and [Luke](https://github.com/TheLMan5) (Luke worked on the project with VSCode Live Share). Please give a star on this repo if you enjoyed!
 
+(This website also has a really ~~bad~~ amazing AI chatbot.)
+
 ## Credits
 
 "Get Out" Sound Effect - https://www.myinstants.com/en/instant/tuco-get-out-30566/

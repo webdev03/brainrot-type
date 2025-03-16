@@ -25,7 +25,7 @@
 	let c = $state(0); // counter to change the fonts
 
 	onMount(() => {
-		if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) goto('/motion-warning');
+		if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) goto('/brainrot-typer/motion-warning');
 
 		setInterval(() => ++c, 500); // change the fonts every 0.5 seconds
 		addEventListener('keydown', (e) => {
