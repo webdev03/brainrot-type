@@ -4,7 +4,6 @@ export const CUSTOM_PROMPTS: string[] = [
 	"you're so rizzy",
 	'rizzler',
 	'ohio',
-	'yo phone linging',
 	'pog',
 	'looksmaxxing',
 	'poggers',
