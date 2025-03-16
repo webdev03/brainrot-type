@@ -4,8 +4,8 @@ export type AIContext = {
 }[];
 
 export default async function ai(context: AIContext) {
-    // context: I didn't realise that huggingface had chat completions
-    // until too late in the Scrapyard Auckland hackathon
+	// context: I didn't realise that huggingface had chat completions
+	// until too late in the Scrapyard Auckland hackathon
 
 	const prompt =
 		context
@@ -28,9 +28,11 @@ export default async function ai(context: AIContext) {
 			inputs: prompt
 		})
 	});
-	return ((await req.json())[0].generated_text as string)
-		.slice(prompt.length)
-		.trim()
-		.split('USER:')[0]
-		.trim() || "You are confusing me";
+	return (
+		((await req.json())[0].generated_text as string)
+			.slice(prompt.length)
+			.trim()
+			.split('USER:')[0]
+			.trim() || 'You are confusing me'
+	);
 }

@@ -33,7 +33,7 @@
 
 <div class="flex h-screen w-screen items-center justify-center" id="container">
 	<main class="flex max-w-[55vw] flex-col rounded border bg-gray-50">
-		<div class="flex overflow-y-auto min-w-[20vw] h-[50vh] w-full flex-col p-4 *:my-2">
+		<div class="flex h-[50vh] w-full min-w-[20vw] flex-col overflow-y-auto p-4 *:my-2">
 			{#each context.filter((x) => x.role != 'system') as contextItem}
 				<div
 					class={contextItem.role === 'user'
