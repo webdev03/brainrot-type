@@ -60,7 +60,8 @@
 					if (e.key === 'Enter') send();
 				}}
 			/>
-			<button class="h-full grow-1 rounded bg-blue-400 p-2.5" onclick={send}>Send</button>
+			<button class="h-full grow-1 rounded bg-blue-400 p-2.5 text-white" onclick={send}>Send</button
+			>
 		</div>
 	</main>
 </div>
