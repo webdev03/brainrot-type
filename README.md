@@ -5,3 +5,7 @@
 It's like [Monkeytype](https://monkeytype.com) but it's better... **COMPLETE WITH BRAINROT SOUND EFFECTS!!!**
 
 Made by [Devarsh](https://devarsh.me) and [Luke](https://github.com/TheLMan5) (Luke worked on the project with VSCode Live Share)
+
+## Credits
+
+"Get Out" Sound Effect - https://www.myinstants.com/en/instant/tuco-get-out-30566/

@@ -2,7 +2,15 @@
 	import { goto } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import createText from '$lib/generate-text';
-	const FONTS = ['Kablammo', 'Comic Neue', 'Akronim', 'Just Me Again Down Here', 'Rubik Moonrocks'];
+	const FONTS = [
+		'Kablammo',
+		'Comic Neue',
+		'Akronim',
+		'Just Me Again Down Here',
+		'Rubik Moonrocks',
+		'Emblema One',
+		'Ole'
+	];
 	const COLORS = ['blue', 'teal', 'green', 'red', 'orange'];
 
 	const vineBoom = new Audio('/vine-boom.mp3');
@@ -59,12 +67,14 @@ text-orange-400
 	<main class="flex flex-grow flex-col items-center justify-center text-center">
 		<div class="inline text-gray-400">{typedText}</div>
 		<div class="inline">
-			{#each textToType.split(' ') as a}{#key c}
+			{#each textToType.split(' ') as a}
+				{#key c}
 					<span
 						class={`text-${COLORS[Math.floor(Math.random() * COLORS.length)]}-400`}
 						style:font-family={FONTS[Math.floor(Math.random() * FONTS.length)]}>{a + ' '}</span
 					>
-				{/key}{/each}
+				{/key}
+			{/each}
 		</div>
 	</main>
 	<footer class="justify-center p-4 text-center">
