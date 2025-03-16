@@ -20,3 +20,5 @@ You will also need a HuggingFace access token if you want to be able to use the 
 "Vine Boom" Sound Effect - https://www.myinstants.com/en/instant/vine-boom-sound-70972/
 
 Words List - https://www.ef.com/wwen/english-resources/english-vocabulary/top-3000-words/
+
+Fonts from Google Fonts - Akronim, Comic Neue, Emblema One, Just Me Again Down Here, Kablammo, Ole, Rubik Moonrocks
