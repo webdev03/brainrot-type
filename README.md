@@ -12,6 +12,8 @@ Made by [Devarsh](https://devarsh.me) and [Luke](https://github.com/TheLMan5) (L
 
 This site uses the SvelteKit Vercel adapter. You can change it in `svelte.config.js` and add the required package if needed, and deploy it with the instructions for your adapter.
 
+You will also need a HuggingFace access token if you want to be able to use the AI chatbot, put it in the `.env` file following the `.env.example` template.
+
 ## Credits
 
 "Get Out" Sound Effect - https://www.myinstants.com/en/instant/tuco-get-out-30566/
