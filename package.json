@@ -27,5 +27,8 @@
 		"typescript": "^5.8.2",
 		"vite": "^6.2.2",
 		"zimmerframe": "^1.1.2"
+	},
+	"dependencies": {
+		"@lucide/svelte": "^0.482.0"
 	}
 }

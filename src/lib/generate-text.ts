@@ -42,7 +42,7 @@ export function getWord() {
 }
 
 export default function createText(): string {
-	const TOTAL_WORD_COUNT = 200;
+	const TOTAL_WORD_COUNT = 150;
 	let prompt = '';
 	while (prompt.split(' ').length < TOTAL_WORD_COUNT) {
 		prompt += ' ' + getWord();

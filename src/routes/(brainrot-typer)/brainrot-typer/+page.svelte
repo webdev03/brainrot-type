@@ -78,7 +78,7 @@ text-orange-400
 	<div class="flex flex-col">
 		<header class="flex items-center justify-center p-4">
 			<img src="/favicon.png" alt="Amazing Logo" class="h-30 w-30" />
-			<h1 class="ml-4 text-9xl">Brainrot Typer</h1>
+			<h1 class="ml-4 text-6xl">Brainrot Typer</h1>
 		</header>
 		<main class="flex flex-grow flex-col items-center justify-center text-center">
 			<div class="inline text-gray-400">{typedText}</div>
@@ -86,7 +86,7 @@ text-orange-400
 				{#each textToType.split(' ') as a}
 					{#key c}
 						<span
-							class={`text-${COLORS[Math.floor(Math.random() * COLORS.length)]}-400`}
+							class={`text-2xl text-${COLORS[Math.floor(Math.random() * COLORS.length)]}-400`}
 							style:font-family={FONTS[Math.floor(Math.random() * FONTS.length)]}>{a + ' '}</span
 						>
 					{/key}
